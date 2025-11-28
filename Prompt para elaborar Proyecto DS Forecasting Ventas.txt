@@ -1,0 +1,31 @@
+Crea la estructura de carpetas para un proyecto de Machine Learning con datos RAW y procesados, notebook,s modelos una APP de Streamlit, Docs, requirements y un git ignore
+
+importa pandas, numpy, matplotlib, seaborn, scikit-learn, streamlit y Holidays con sus alias mas comunes. Importa las librerías completas. No solo los metodos que se van a usar a corto plazo
+
+Crea un entono pip llamdo Forecasting con Python 3.11 e instala librerias Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Jupyter, Streamlit y Holidays para manejar el calendario de España
+
+Desde la carpeta de data/raw/entrenamiento carga los *.csv de ventas y competencias en sus respectivos Dataframes. Ten en cuenta que partes desde la carpeta de notebook para escribir bien sus paths relativos
+
+Valida la calidad de los datos de ventas DF los tipos de cada variable los nulos, los duplicados, los descriptivos, etcetera y muestrame un informe final de calidad de datos
+
+
+(A raiz de estos datos *copiados al chat) A raiz de estos resultados, tengo que corregir algo en mis datos?
+Haz el mismo analisis de calidad con el Dataframe Competencia
+
+Convierte la fecha a Dataframe en ambos Dataframes (Ventas y competencia)
+Verifica la conversion de las fechas
+
+Integra df_ventas y df_competencia en un nuevo dataframe llamado df_nuevo usando los campos fecha y producto_id como los campos clave
+--
+Haz un analisis exploratorio de df_nuevo. Incluye un grafico separado para cada año de lineas temporales con la suma de unidades vendidas para cada año, marcando los black fridays. Luego un grafico de la suma de unidades vendidas por dia de la semana. Otro por categoria, Otro por subcategoria, Otro por los top productos y otro de análisis de la densidad de distribucion de los precios nuestros y los de Amazon como referencia de la competencia. Ve insertando los diferentes análisis en diferentes celidas y que todos los gráficos sean utilizando Seaborn.
+--
+Pasamos ya a la fase de creacion de variables. Asi que crea las variables temporales usando holidays para España.
+Crea por ejemplo, el año, el mes, dia_mes, dia_semana, es_fin_semana, es_festivo, es_Black_Friday, es_Cyber_Monday y otras variables temporales o de calendario que se te ocurran y sean interesantes.
+
+Ahora vamos a crear los lags. Crea los lags de las unidades venididas del lag 1 al lag 7 y crea tambien la media movil de 7 días. Recuerda hacer cada año por separado para no mezclar los ultimos registros de Noviembre de un año con los primeros de octubre del siguiente, y elimina los registros en los que se hayan creado nulos en alguna de las nuevas variables creadas.
+
+Crea una variable de descuento porcentaje como la diferencia entre el precio de venta y el precio base dividido por el precio base y todo multiplicado por 100.
+
+Crea una variable precio_competencia con el precio promedio de los competidores Amazon, Decathlon, deporvillagem y luego crea otra varaible ratio_precio dividiendo nuestro precio entre el precio promedio de la competencia. Finalmente elimina las variables de Amazon, Decathlon, Deporvillage.
+
+--
