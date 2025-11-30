@@ -35,3 +35,10 @@ Guarda el dataframe df_nuevo procesado en la carpeta data/proccessed
 --
 
 divide df_nuevo en df_train con los años 2021 a 2023 y df_validation con el año 2024. Muestrame cuantos registros 
+
+Entrena un HistGradientBoostingRegressor con parámetros conservadores para evitar el sobreajuste: learning_rete bajo, bastantes árboles, profundidad moderada y regularización. 
+El objetivo es unidades_vendidas, y las predictoras son el resto de las variables excepto fecha, ingresos y todas las que sean de tipo object. 
+Entrena en df_train y valida en df_validation. Calcula las métricas típicas de forecasting y compara contra una linea base naive que predice la media.
+
+
+
