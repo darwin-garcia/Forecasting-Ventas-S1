@@ -40,6 +40,7 @@ Entrena un HistGradientBoostingRegressor con parámetros conservadores para evit
 El objetivo es unidades_vendidas, y las predictoras son el resto de las variables excepto fecha, ingresos y todas las que sean de tipo object. 
 Entrena en df_train y valida en df_validation. Calcula las métricas típicas de forecasting y compara contra una linea base naive que predice la media.
 
+Aplica el modelo a los datos de noviembre de 2024 del dataframe nuevo para generar predicciones para cada uno de los 7 productos estrella y crea 7 graficos; uno por cada producto donde se ve la linea de la predicción y la linea de la realidad. Usa el nombre del producto para que sepa de qué producto es cada gráfico.
 
 
 
