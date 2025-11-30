@@ -29,3 +29,9 @@ Crea una variable de descuento porcentaje como la diferencia entre el precio de 
 Crea una variable precio_competencia con el precio promedio de los competidores Amazon, Decathlon, deporvillagem y luego crea otra varaible ratio_precio dividiendo nuestro precio entre el precio promedio de la competencia. Finalmente elimina las variables de Amazon, Decathlon, Deporvillage.
 
 --
+Crea las variables nombre, categoría y subcategoría añadiendo el sufijo _h en cada una. Luego haz One hot encoding sobre nombre_h, categoria_h y subcategoria_h
+
+Guarda el dataframe df_nuevo procesado en la carpeta data/proccessed
+--
+
+divide df_nuevo en df_train con los años 2021 a 2023 y df_validation con el año 2024. Muestrame cuantos registros 
