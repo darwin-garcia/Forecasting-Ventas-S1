@@ -42,5 +42,16 @@ Entrena en df_train y valida en df_validation. Calcula las métricas típicas de
 
 Aplica el modelo a los datos de noviembre de 2024 del dataframe nuevo para generar predicciones para cada uno de los 7 productos estrella y crea 7 graficos; uno por cada producto donde se ve la linea de la predicción y la linea de la realidad. Usa el nombre del producto para que sepa de qué producto es cada gráfico.
 
+Aplica el modelo a los datos de noviembre de 2024 del dataframe nuevo para generar predicciones para cada uno de los 7 productos estrella y crea 7 graficos; uno por cada producto donde se ve la linea de la predicción y la linea de la realidad. Usa el nombre del producto para que sepa de qué producto es cada gráfico.
+
+Calcula el MAE para cada uno de los productos estrella
+
+Analiza como degrada el error a lo largo de noviembre de 2024. Divide en 3 periodos de 10 días, calcula métricas por periodo y grafica la evolución
+
+Analiza específicamente Black Friday de 2024 para todos los productos. Crea un grafico real vs la predicción en el eje X estaría el ID de producto y en el eje y una línea para la predicción y otra para la realidad.
+
+Ahora re entrena el modelo final con todos los datos historicos disponibles sobre el DF nuevo. Entrena un nuevo HistGradientBoostingRegressor con los minimos parámetros óptimos y las mismas variables que usaste antes, pero ahora usando el DF nuevo completo desde el 2021 hasta 2024 como conjunto de entrenamiento
+
+Calcula la importancia de variables con permutation importance y el modelo final. Y representala en un gráfico de barras horizontales ordenado de mayor a menor, y guarda el modelo final en la carpeta /models con el nombre modelo_final.joblib
 
 
