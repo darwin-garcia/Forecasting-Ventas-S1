@@ -65,4 +65,7 @@ Guarda df_inferencia en /data/processed como df_inferencia_transformado.csv.
 
 Inserta todas estas celdas de codigo que has generado en el notebook Forecasting
 
+[Claude Sonnet 4.5]
+
+@workspace 
 
