@@ -54,4 +54,15 @@ Ahora re entrena el modelo final con todos los datos historicos disponibles sobr
 
 Calcula la importancia de variables con permutation importance y el modelo final. Y representala en un gráfico de barras horizontales ordenado de mayor a menor, y guarda el modelo final en la carpeta /models con el nombre modelo_final.joblib
 
+-- 
+Crea un nuevo notebbok en la carpeta /notebooks llamado Forecasting.ipynb. Importa las mismas librerías que en el notebook de entrenamiento y carga el archivo de ventas_2025_inferencia que está en la carpeta /data/raw/inferencia en un dataframe llamado df_inferencia
+
+@workspace - Tenga como contexto todo el proyecto (consume muchos tokens de uso IA)
+
+@workspace Quiero preparar el dataframe df_inferencia para hacer una inferencia con el modelo de Forecasting, aplicando exactamente las mismas transformaciones, ingeniería de variables y codificaciones que se han hecho sobre el dataframe df_nuevo en el notebook de entrenamiento. 
+Repasa todo el proceso que se ha seguido con df_nuevo y añade al notebook Forecasting el código necesario para transformar el df_inferencia y que tenga las mismas variables y estructura, listo para usar con el modelo. Tras terminar todos los procesos, elimina los registros de octubre y deja solo los de noviembre.
+Guarda df_inferencia en /data/processed como df_inferencia_transformado.csv.
+
+Inserta todas estas celdas de codigo que has generado en el notebook Forecasting
+
 
