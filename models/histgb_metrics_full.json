@@ -1,0 +1,21 @@
+{
+  "dataset": "2021-2024 completo",
+  "n_rows": 3524,
+  "model": {
+    "type": "HistGradientBoostingRegressor",
+    "params": {
+      "learning_rate": 0.03,
+      "max_iter": 400,
+      "max_depth": 6,
+      "l2_regularization": 1.0,
+      "random_state": 42
+    }
+  },
+  "train_metrics_only": {
+    "MSE": 0.8311554391050575,
+    "RMSE": 0.9116772669673504,
+    "MAE": 0.5290765189441059,
+    "MAPE": 14.30368142395014,
+    "R2": 0.9792272112088064
+  }
+}

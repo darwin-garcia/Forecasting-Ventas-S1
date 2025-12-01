@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "HistGradientBoostingRegressor",
+    "params": {
+      "learning_rate": 0.03,
+      "max_iter": 400,
+      "max_depth": 6,
+      "l2_regularization": 1.0,
+      "random_state": 42
+    }
+  },
+  "validation": {
+    "MSE": 18.991824503201027,
+    "RMSE": 4.357961048839357,
+    "MAE": 2.026264703500033,
+    "MAPE": 47.491832353640106,
+    "R2": 0.5134929466496645
+  },
+  "baseline_naive": {
+    "MSE": 39.059984534083625,
+    "RMSE": 6.249798759486871,
+    "MAE": 3.3469652084516954,
+    "MAPE": 86.50664408457884,
+    "R2": -0.0005862246875647514,
+    "mean_train": 4.8408408408408405
+  }
+}

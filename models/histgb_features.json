@@ -1,0 +1,26 @@
+{
+  "features": [
+    "precio_base",
+    "es_estrella",
+    "precio_venta",
+    "Amazon",
+    "Decathlon",
+    "Deporvillage",
+    "dia_semana",
+    "año",
+    "mes",
+    "dia_mes",
+    "semana_año",
+    "trimestre",
+    "es_fin_semana",
+    "es_festivo",
+    "es_Black_Friday",
+    "es_Cyber_Monday",
+    "es_inicio_mes",
+    "es_fin_mes",
+    "es_inicio_trimestre",
+    "es_fin_trimestre",
+    "es_verano",
+    "es_navidad"
+  ]
+}

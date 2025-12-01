@@ -1,0 +1,119 @@
+feature,importance_mean,importance_std
+unidades_vendidas_ma7,1.1716943326859126,0.01978055357184646
+descuento_porcentaje,0.9822455477825891,0.009930016269274939
+nombre_h_Adidas Ultraboost 23_h,0.6302992011628785,0.00793891272456921
+nombre_h_Adidas Ultraboost 23_h,0.6302992011628785,0.00793891272456921
+precio_base,0.5478809246949148,0.025766130127599294
+nombre_h_Nike Air Zoom Pegasus 40_h,0.5254144541381549,0.0137078099892183
+nombre_h_Nike Air Zoom Pegasus 40_h,0.5254144541381549,0.0137078099892183
+categoria_h_Fitness_h,0.245093799283715,0.0058558024854564695
+categoria_h_Fitness_h,0.245093799283715,0.0058558024854564695
+subcategoria_h_Zapatillas Running_h,0.18857904614911286,0.014271742109363954
+subcategoria_h_Zapatillas Running_h,0.18857904614911286,0.014271742109363954
+nombre_h_Manduka PRO Yoga Mat_h,0.17131189720931256,0.004580675583443499
+nombre_h_Manduka PRO Yoga Mat_h,0.17131189720931256,0.004580675583443499
+precio_competencia,0.13288858113390895,0.01282906914224419
+dia_semana,0.11757346188000332,0.005018126421071023
+precio_venta,0.10736801201683081,0.005035258439387437
+año,0.09493362202117935,0.0037574229373441223
+ratio_precio,0.08183143954874991,0.003449355612049497
+categoria_h_Wellness_h,0.08098579365542537,0.0025285611232941504
+categoria_h_Wellness_h,0.08098579365542537,0.0025285611232941504
+unidades_vendidas_lag_3,0.04326176550042786,0.0016104117672587589
+unidades_vendidas_lag_1,0.033423983418602,0.0020129481472484427
+unidades_vendidas_lag_6,0.03211487544362061,0.002339270234518927
+unidades_vendidas_lag_5,0.02652261547729976,0.0012797441592868474
+es_Black_Friday,0.021445350275609842,0.0015022234014725345
+unidades_vendidas_lag_2,0.020161190508157643,0.0011275431683207898
+semana_año,0.01678255746301479,0.0013213120210962728
+unidades_vendidas_lag_4,0.015732849158428264,0.0009132546401491462
+nombre_h_Domyos Kit Mancuernas 20kg_h,0.012018948282494857,0.0011004044085553572
+nombre_h_Domyos Kit Mancuernas 20kg_h,0.012018948282494857,0.0011004044085553572
+categoria_h_Running_h,0.011849644033520712,0.0015783875061698405
+categoria_h_Running_h,0.011849644033520712,0.0015783875061698405
+mes,0.01179092689892267,0.0009938528497189997
+nombre_h_Salomon Speedcross 5 GTX_h,0.011548251751621807,0.0006464757827786371
+nombre_h_Salomon Speedcross 5 GTX_h,0.011548251751621807,0.0006464757827786371
+dia_mes,0.009974284149875279,0.0009796819767579309
+unidades_vendidas_lag_7,0.008120649887174581,0.001065377929135624
+nombre_h_Asics Gel Nimbus 25_h,0.007709705107984866,0.0008538879475041213
+nombre_h_Asics Gel Nimbus 25_h,0.007709705107984866,0.0008538879475041213
+nombre_h_Lotuscrafts Yoga Bolster_h,0.006438996780792594,0.0005784953215616656
+nombre_h_Lotuscrafts Yoga Bolster_h,0.006438996780792594,0.0005784953215616656
+nombre_h_Reebok Professional Deck_h,0.0037499157409082275,0.0007705041314258369
+nombre_h_Reebok Professional Deck_h,0.0037499157409082275,0.0007705041314258369
+nombre_h_Quechua MH500_h,0.002248251807582857,0.0005263306400550014
+nombre_h_Quechua MH500_h,0.002248251807582857,0.0005263306400550014
+nombre_h_Bowflex SelectTech 552_h,0.0022349408974363773,0.00032047131605279604
+nombre_h_Bowflex SelectTech 552_h,0.0022349408974363773,0.00032047131605279604
+subcategoria_h_Ropa Montaña_h,0.0017194682613210555,0.00029927254785207946
+subcategoria_h_Ropa Montaña_h,0.0017194682613210555,0.00029927254785207946
+nombre_h_New Balance Fresh Foam X 1080v12_h,0.0015798788520296591,0.0003201776029124297
+nombre_h_New Balance Fresh Foam X 1080v12_h,0.0015798788520296591,0.0003201776029124297
+nombre_h_Decathlon Bandas Elásticas Set_h,0.001421245373564195,0.0002790700559016206
+nombre_h_Decathlon Bandas Elásticas Set_h,0.001421245373564195,0.0002790700559016206
+categoria_h_Outdoor_h,0.0008451542976824711,0.00018281837814008612
+categoria_h_Outdoor_h,0.0008451542976824711,0.00018281837814008612
+nombre_h_Reebok Floatride Energy 5_h,0.0008187399695711694,0.00023132378508691997
+nombre_h_Reebok Floatride Energy 5_h,0.0008187399695711694,0.00023132378508691997
+nombre_h_Domyos BM900_h,0.00048042314102940685,9.64176830195235e-05
+nombre_h_Domyos BM900_h,0.00048042314102940685,9.64176830195235e-05
+nombre_h_Merrell Moab 2 GTX_h,0.00020579131100053604,7.389518972965536e-05
+nombre_h_Merrell Moab 2 GTX_h,0.00020579131100053604,7.389518972965536e-05
+nombre_h_The North Face Borealis_h,4.379343284245385e-05,3.0583317035198836e-05
+nombre_h_The North Face Borealis_h,4.379343284245385e-05,3.0583317035198836e-05
+nombre_h_Gaiam Premium Yoga Block_h,0.0,0.0
+nombre_h_Puma Velocity Nitro 2_h,0.0,0.0
+nombre_h_Trek Marlin 7_h,0.0,0.0
+es_inicio_trimestre,0.0,0.0
+es_fin_trimestre,0.0,0.0
+es_navidad,0.0,0.0
+nombre_h_Columbia Silver Ridge_h,0.0,0.0
+es_fin_semana,0.0,0.0
+es_estrella,0.0,0.0
+trimestre,0.0,0.0
+nombre_h_Sveltus Kettlebell 12kg_h,0.0,0.0
+nombre_h_Gaiam Premium Yoga Block_h,0.0,0.0
+nombre_h_Liforme Yoga Pad_h,0.0,0.0
+nombre_h_Adidas Own The Run Jacket_h,0.0,0.0
+nombre_h_Nike Dri-FIT Miler_h,0.0,0.0
+es_verano,0.0,0.0
+es_inicio_mes,0.0,0.0
+es_festivo,0.0,0.0
+es_fin_mes,0.0,0.0
+subcategoria_h_Rodillera Yoga_h,0.0,0.0
+subcategoria_h_Pesas Casa_h,0.0,0.0
+subcategoria_h_Banco Gimnasio_h,0.0,0.0
+subcategoria_h_Bandas Elásticas_h,0.0,0.0
+nombre_h_Sveltus Kettlebell 12kg_h,0.0,0.0
+nombre_h_Liforme Yoga Pad_h,0.0,0.0
+nombre_h_Columbia Silver Ridge_h,0.0,0.0
+nombre_h_Adidas Own The Run Jacket_h,0.0,0.0
+subcategoria_h_Zapatillas Trail_h,0.0,0.0
+subcategoria_h_Ropa Running_h,0.0,0.0
+subcategoria_h_Bicicleta Montaña_h,0.0,0.0
+subcategoria_h_Bloque Yoga_h,0.0,0.0
+subcategoria_h_Cojín Yoga_h,0.0,0.0
+subcategoria_h_Esterilla Fitness_h,0.0,0.0
+subcategoria_h_Esterilla Yoga_h,0.0,0.0
+subcategoria_h_Mancuernas Ajustables_h,0.0,0.0
+subcategoria_h_Mochila Trekking_h,0.0,0.0
+subcategoria_h_Pesa Rusa_h,0.0,0.0
+nombre_h_Puma Velocity Nitro 2_h,0.0,0.0
+nombre_h_Nike Dri-FIT Miler_h,0.0,0.0
+subcategoria_h_Mancuernas Ajustables_h,0.0,0.0
+nombre_h_Trek Marlin 7_h,0.0,0.0
+subcategoria_h_Banco Gimnasio_h,0.0,0.0
+subcategoria_h_Bandas Elásticas_h,0.0,0.0
+subcategoria_h_Cojín Yoga_h,0.0,0.0
+subcategoria_h_Esterilla Fitness_h,0.0,0.0
+subcategoria_h_Bicicleta Montaña_h,0.0,0.0
+subcategoria_h_Bloque Yoga_h,0.0,0.0
+subcategoria_h_Rodillera Yoga_h,0.0,0.0
+subcategoria_h_Esterilla Yoga_h,0.0,0.0
+subcategoria_h_Mochila Trekking_h,0.0,0.0
+subcategoria_h_Pesa Rusa_h,0.0,0.0
+subcategoria_h_Ropa Running_h,0.0,0.0
+subcategoria_h_Pesas Casa_h,0.0,0.0
+subcategoria_h_Zapatillas Trail_h,0.0,0.0
+es_Cyber_Monday,-5.217662079105567e-05,6.0438502747053033e-05
