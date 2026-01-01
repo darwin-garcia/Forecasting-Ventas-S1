@@ -57,7 +57,7 @@ El modelo desarrollado permite anticipar la demanda de artículos deportivos con
 
 - **Autor:** Darwin García
 - **Contacto:** [devcol3001@gmail.com]
-- **LinkedIn:** <a href="https://www.linkedin.com/in/darwingarc%C3%ADa/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/></a>
+- <a href="https://www.linkedin.com/in/darwingarc%C3%ADa/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/></a>
 
 ---
 👨‍💻 ©MMXXVI. Darwin Garcia. 🇨🇴
@@ -65,4 +65,5 @@ El modelo desarrollado permite anticipar la demanda de artículos deportivos con
 <p align="center">
   <img src="pictures/black_friday_banner.png" alt="Black Friday Sports Sales" width="600"/>
 </p>
+
 
