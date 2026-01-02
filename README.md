@@ -60,11 +60,12 @@ El modelo desarrollado permite anticipar la demanda de artículos deportivos con
 - <a href="https://www.linkedin.com/in/darwingarc%C3%ADa/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/></a>
 
 ---
-👨‍💻 ©MMXXVI. Darwin Garcia. 🇨🇴
+👨‍💻 ©MMXXV. Darwin Garcia. 🇨🇴
 
 <p align="center">
   <img src="pictures/Captura de pantalla (5).png" alt="Black Friday Sports Sales" width="600"/>
 </p>
+
 
 
 
