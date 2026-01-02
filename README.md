@@ -63,8 +63,11 @@ El modelo desarrollado permite anticipar la demanda de artículos deportivos con
 👨‍💻 ©MMXXV. Darwin Garcia. 🇨🇴
 
 <p align="center">
-  <img src="pictures/Captura de pantalla (5).png" alt="Black Friday Sports Sales" width="600"/>
+  <img src="pictures/Captura de pantalla (5).png" alt="Black Friday Sports Sales" width="800"/>
+ <img src="pictures/Captura de pantalla (11).png" alt="Black Friday Sports Sales" width="800"/>
+	<img src="pictures/Captura de pantalla (13).png" alt="Black Friday Sports Sales" width="800"/>
 </p>
+
 
 
 
