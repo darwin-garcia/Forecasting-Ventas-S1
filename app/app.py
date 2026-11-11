@@ -5,8 +5,28 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import joblib
 from datetime import datetime
+from pathlib import Path
 import warnings
 warnings.filterwarnings('ignore')
+
+# ============================================
+# RUTAS GLOBALES DEL PROYECTO
+# ============================================
+# 
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+MODELS_DIR = BASE_DIR / "models"
+DATA_DIR = BASE_DIR / "data"
+PROCESSED_DIR = DATA_DIR / "processed"
+
+MODEL_PATH = BASE_DIR / MODELS_DIR / "modelo_final.joblib"
+
+DATA_PATH = (
+    BASE_DIR /
+    DATA_DIR /
+    PROCESSED_DIR /
+    "df_nuevo.csv"
+)
 
 # ============================================
 # CONFIGURACIÓN DE LA PÁGINA
@@ -45,41 +65,58 @@ st.markdown("""
 
 @st.cache_resource
 def cargar_modelo():
-    """Carga el modelo de ML entrenado"""
+    """Carga el modelo de ML entrenado."""
     try:
-        modelo = joblib.load('models/modelo_final.joblib')
-        return modelo
+        if not MODEL_PATH.exists():
+            st.error(
+                f"❌ No se encontró el modelo en:\n{MODEL_PATH}"
+            )
+            return None
+
+        return joblib.load(MODEL_PATH)
+
     except Exception as e:
         st.error(f"❌ Error al cargar el modelo: {e}")
         return None
 
 @st.cache_data
 def cargar_datos():
-    """Carga el dataframe de inferencia preparado"""
+    """Carga el dataframe de inferencia preparado."""
+
     try:
-        # Cargar el archivo que tiene todas las columnas necesarias
-        df = pd.read_csv('data/processed/df_nuevo.csv')
-        df['fecha'] = pd.to_datetime(df['fecha'])
-        
-        # Tomar datos de noviembre 2024 como base para noviembre 2025
-        df_nov_2024 = df[(df['año'] == 2024) & (df['mes'] == 11)].copy()
-        
-        if df_nov_2024.empty:
-            st.error("❌ No hay datos base para crear simulación")
+        if not DATA_PATH.exists():
+            st.error(
+                f"❌ No se encontró el archivo de datos en:\n{DATA_PATH}"
+            )
             return None
-        
-        # Crear datos para noviembre 2025 basados en noviembre 2024
+
+        df = pd.read_csv(DATA_PATH)
+        df["fecha"] = pd.to_datetime(df["fecha"])
+
+        df_nov_2024 = df[
+            (df["año"] == 2024) &
+            (df["mes"] == 11)
+        ].copy()
+
+        if df_nov_2024.empty:
+            st.error(
+                "❌ No hay datos base de noviembre de 2024."
+            )
+            return None
+
         df_nov = df_nov_2024.copy()
-        
-        # Actualizar el año y las fechas a 2025
-        df_nov['año'] = 2025
-        df_nov['fecha'] = df_nov['fecha'] + pd.DateOffset(years=1)
-        
+
+        df_nov["año"] = 2025
+        df_nov["fecha"] = (
+            df_nov["fecha"] + pd.DateOffset(years=1)
+        )
+
         return df_nov
+
     except Exception as e:
         st.error(f"❌ Error al cargar los datos: {e}")
         return None
-
+    
 # ============================================
 # FUNCIÓN PRINCIPAL DE PREDICCIÓN RECURSIVA
 # ============================================
